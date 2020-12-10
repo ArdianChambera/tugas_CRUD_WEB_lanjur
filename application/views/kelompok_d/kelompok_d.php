@@ -6,6 +6,7 @@
 		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css')?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/fontawesome-free/css/all.min.css')?>">
 	<title>Kelompok D</title>
 </head>
 <body>
@@ -23,6 +24,7 @@
 			<th>kolom Jurusan</th>
 			<th>Kolom Kelas</th>
 			<th>Kolom Isi</th>
+			<th>Aksi</th>
 		</tr>
 		</thead>
 		<tbody>
@@ -35,6 +37,10 @@
 				<td><?php echo $is->kolom_jurusan;?></td>
 				<td><?php echo $is->kolom_kelas;?></td>
 				<td><?php echo $is->kolom_isi;?></td>
+				<td>
+					<a href="#" class="btn-small btn-sm btn-danger"><i class="fas fa-trash"></i></a>
+					<a href="#" class="btn-small btn-sm btn-primary"><i class="fas fa-edit"></i></a>
+				</td>
 			</tr>
 			<?php
 		}
