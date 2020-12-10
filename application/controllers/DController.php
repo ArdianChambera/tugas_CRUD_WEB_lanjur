@@ -9,7 +9,7 @@ class DController  extends CI_Controller{
 
 	public function index()
 	{
-		$data['isi'] = $this-DModel->getALL();
+		$data['isi'] = $this->DModel->getALL();
 
 		$this->load->view('kelompok_d/kelompok_d', $data);
 	}
@@ -36,7 +36,7 @@ class DController  extends CI_Controller{
 
 		$this->session->set_flashdata('pesan_kelompok_d', '
 			<div class="alert alert-success alert-dismissible fade show" role="alert">
-				  Data Kelompok A Berhasil Di Tambahkan !
+				  Data Kelompok D Berhasil Di Tambahkan !
 				  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				  </button>
