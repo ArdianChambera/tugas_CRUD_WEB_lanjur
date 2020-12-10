@@ -17,7 +17,7 @@
 
 	<?php echo $this->session->flashdata('pesan_kelompok_d')?>
 
-	<table class="table table-hover table-striped tab-bordered">
+	<table class="table table-hover table-striped table-bordered">
 		<thead>
 		<tr>
 			<th>No</th>
