@@ -12,7 +12,7 @@
 <div class="container">
 	<h2>Data Kelompok D</h2>
 
-	<a href="<?php echo base_url('index.php/DController/tambah')?>" class="btn btn-primary mb-4 mt-3">Tambah Data</a>
+	<a href="<?php echo base_url('DController/tambah')?>" class="btn btn-primary mb-4 mt-3">Tambah Data</a>
 
 	<?php echo $this->session->flashdata('pesan_kelompok_d')?>
 

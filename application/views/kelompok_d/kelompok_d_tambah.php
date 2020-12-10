@@ -12,7 +12,7 @@
 <div class="container">
 
 	<h2>Tambah Data  Kelompok D</h2>
-	<form action="<?php echo base_url('index.php/DController/proses_tambah')?>" method="post">
+	<form action="<?php echo base_url('DController/proses_tambah')?>" method="post">
 		<div class="form-group">
 			<label for="">Kolom_jurusan</label>
 			<input type="text" name="txtkolom_jurusan" class="form-control">
@@ -28,7 +28,7 @@
 
 		<input type="submit" name="submit" value="simpan" class="btn btn-primary">
 
-		<a href="<?php echo base_url('index.php/DController/index')?>" class="btn btn-warning">Batal</a>
+		<a href="<?php echo base_url('DController/index')?>" class="btn btn-warning">Batal</a>
 	</form>
 
 </div>
